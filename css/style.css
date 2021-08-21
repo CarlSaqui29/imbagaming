@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.mainCont {
+  padding: 1vw 0;
+  height: 100vh;
+}
+
+.mainCont .section1 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+}
+
+.mainCont .section1 .row .col1 {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 20px;
+  padding-top: 130px;
+  text-align: right;
+}
+
+.mainCont .section1 .row .col1 img {
+  width: 150px;
+}
+
+.mainCont .section1 .row .col1 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-size: "Poppins";
+  line-height: 15px;
+  color: #fff;
+  opacity: 70%;
+}
+
+.mainCont .section1 .row .col1 h3 {
+  font-family: "Poppins";
+  margin-bottom: 20px;
+  color: #fff;
+  opacity: 50%;
+}
+
+.mainCont .section1 .row .col1 .con {
+  padding-left: 7vw;
+}
+
+.mainCont .section1 .row .col1 .con p {
+  font-size: 18px;
+}
+
+.mainCont .section1 .row .col1 ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.mainCont .section1 .row .col1 ul li {
+  display: inline;
+  margin: 0 7px;
+}
+
+.mainCont .section1 .row .col1 ul li a {
+  color: #fff;
+  font-size: 30px;
+  opacity: 80%;
+}
+
+.mainCont .section1 .row .col1 ul li a:hover {
+  color: #ec0035;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.mainCont .section1 .row .col2 {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 20px;
+}
+
+.mainCont .section1 .row .col2 form {
+  width: 500px;
+}
+
+.mainCont .section1 .row .col2 form .cont {
+  background-color: #16171b;
+  border-radius: 4px;
+  padding: 40px 30px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+}
+
+.mainCont .section1 .row .col2 form h2 {
+  color: #fff;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+
+.mainCont .section1 .row .col2 form p {
+  color: #fff;
+  opacity: 80%;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+
+.mainCont .section1 .row .col2 form label {
+  color: #fff;
+  margin-bottom: 7px;
+  opacity: 80%;
+  margin: 10px 0;
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
+}
+
+.mainCont .section1 .row .col2 form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 14px;
+  font-family: "Poppins";
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+
+.mainCont .section1 .row .col2 form input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+
+.mainCont .section1 .row .col2 form button {
+  outline: none;
+  border: none;
+  background-color: #ec0035;
+  color: #fff;
+  padding: 20px 45px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  -webkit-transform: translateZ(20px);
+          transform: translateZ(20px);
+}
+
+.mainCont .section1 .row .col2 form button:hover {
+  opacity: 80%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 1200px) {
+  .mainCont .section1 .row .col1 .con {
+    padding-left: 0px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .mainCont .section1 .row {
+    display: block;
+  }
+  .mainCont .section1 .row .col1 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .mainCont .section1 .row .col1 ul {
+    margin-left: -35px;
+  }
+  .mainCont .section1 .row .col2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 590px) {
+  .mainCont {
+    padding: 30px 0;
+  }
+  .mainCont .section1 .row {
+    padding: 0;
+  }
+  .mainCont .section1 .row .col2 {
+    padding: 20px;
+  }
+  .mainCont .section1 .row .col2 form {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
